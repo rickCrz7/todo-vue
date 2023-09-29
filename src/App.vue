@@ -7,6 +7,7 @@
             <input
                 v-model="todo"
                 class="text-black rounded-md text-xl tracking-wider"
+                placeholder="Add a todo"
                 type="text"
                 @keyup.enter="addTodo"
             />
